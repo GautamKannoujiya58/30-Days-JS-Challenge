@@ -1,4 +1,3 @@
-"use-strict";
 // Day 2: Operators
 // Tasks / Activities:
 
