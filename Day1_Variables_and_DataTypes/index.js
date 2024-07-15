@@ -84,3 +84,14 @@ const model_number = 234781;
 // const model_number = 00987; // using const re-declaration is not allowed
 model_number = 87001;
 console.log(model_number); // neither reassignment allowed
+
+// ---------------------------------------------------------------------------------------------------
+
+// Achievement:
+
+// By the end of these activities, you will:
+
+// . Know how to declare variables using var, let, and const .
+// . Understand the different data types in JavaScript.
+// . Be able to use the typeof operator to identify the data type of a variable.
+// . Understand the concept of variable reassignment and the immutability of const variables.
