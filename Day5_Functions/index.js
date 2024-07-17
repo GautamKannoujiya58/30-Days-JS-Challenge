@@ -66,6 +66,7 @@ const defaultProduct = (n1, n2 = 5) => {
   return n1 * n2;
 };
 console.log(defaultProduct(10));
+console.log(defaultProduct(3, 2));
 // Task 8: Write a function that takes a person's name and age and returns a greeting message. Provide a default value for the age
 const greet = (name, age = 54) => {
   return `Hi ${name} your age is ${age}`;
