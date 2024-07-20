@@ -16,12 +16,12 @@ console.log(`Title >>> ${book.title} \nAuthor >>> ${book.author}`);
 
 // Activity 2: Object Methods
 // Task 3: Add a method to the object book that returns a string with the book's title and author, and log the result of calling this method.
-const obj_method = () => {
+const obj_method = function () {
   return `title: ${book.title} \nauthor: ${book.author}`;
 };
-book.func = obj_method;
-console.log("New book Obj with method func", book);
-console.log(book.func());
+book.method = obj_method;
+console.log("New book Obj with method ", book);
+console.log(book.method());
 // Task 4: Add a method to the object book that takes a parameter (year) and updates the book's year property, then log the updated object
 const update_bookYear = function (year) {
   return (book.year = year);
