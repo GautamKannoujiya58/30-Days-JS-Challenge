@@ -1,0 +1,28 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+#heading {
+  text-align: center;
+  color: blue;
+  background-color: rgb(217, 142, 142);
+  margin: 30px;
+  padding: 10px;
+}
+.changeBackgroundColor {
+  background-color: green;
+  width: 50px;
+  height: 300px;
+  width: 50%;
+  margin: auto;
+}
+#borderElmt {
+  width: 50px;
+  height: 300px;
+  width: 50%;
+  margin: auto;
+  border: 10px solid red;
+}
+#borderElmt h1 {
+  text-align: center;
+}
