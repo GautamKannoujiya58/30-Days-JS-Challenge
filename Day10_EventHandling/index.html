@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="paraDiv">
+      <h4 id="para">
+        Event Handling: Events are signals fired inside the browser window that
+        notify of changes in the browser or operating system environment.
+        Programmers can create event handler code that will run when an event
+        fires, allowing web pages to respond appropriately to change.
+      </h4>
+    </div>
+    <button id="changeContentButton">Show me different concept</button>
+    <div id="imgDiv">
+      <h3>double click on the image to toggle the visibility of the image</h3>
+      <img
+        id="K2Mountain"
+        src="https://qph.cf2.quoracdn.net/main-qimg-ef05b733e1ce8c9c2fc1f511be0d0731-lq"
+        alt=""
+      />
+    </div>
+    <div id="changBackground">Mouseover me to change the background color</div>
+    <input id="keyDownEvent" type="text" />Keydown Event
+    <p id="paraFromKeyboard"></p>
+    <div id="userForm">
+      <form id="form">
+        <ul>
+          <li style="list-style: none">
+            <label for="name">Name:</label>
+            <input
+              style="margin-left: 34px; padding: 4px"
+              type="text"
+              id="name"
+              name="user_name"
+            />
+          </li>
+          <li style="list-style: none">
+            <label for="mail">Email:</label>
+            <input
+              style="margin-left: 39px; padding: 4px; margin-top: 4px"
+              type="text"
+              id="email"
+              name="user_email"
+            />
+          </li>
+          <li style="list-style: none">
+            <label for="feedback">Feedback:</label>
+            <textarea
+              style="margin-left: 10px; padding: 4px; margin-top: 4px"
+              id="feedback"
+              name="user_feedback"
+            ></textarea>
+          </li>
+        </ul>
+        <button
+          id="submit_button"
+          style="margin-left: 300px; margin-bottom: 8px; margin-top: -82px"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <select name="dropdownOptions" id="select">
+      <option value="Mumbai">Mumbai</option>
+      <option value="Delhi">Delhi</option>
+      <option value="Chennai">Chennai</option>
+    </select>
+    <p id="paraSelect"></p>
+
+    <ul id="parentUL" style="list-style: none">
+      <li>Element 1</li>
+      <li>Element 2</li>
+      <li>Element 3</li>
+      <li>Element 4</li>
+    </ul>
+
+    <div id="parentDiv">
+      <h1>Header 1</h1>
+      <li style="list-style: none">Li Element</li>
+      <p>Para element</p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

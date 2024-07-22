@@ -1,0 +1,66 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#paraDiv {
+  width: 50%;
+  margin: auto;
+  border: 5px solid cyan;
+  padding: 20px;
+  border-radius: 10px;
+  color: rgb(170, 62, 50);
+}
+#para {
+  padding: 8px;
+}
+#changeContentButton {
+  margin-top: 15px;
+  margin-left: 70vw;
+  color: wheat;
+  background-color: rgba(31, 103, 227, 0.996);
+  border-radius: 4px;
+  height: 30px;
+}
+#imgDiv {
+  border-radius: 4px;
+  height: 300px;
+  width: 500px;
+  border: 10px solid rgb(0, 238, 255);
+  margin-left: 35vw;
+  margin-top: 20px;
+}
+#imgDiv h3 {
+  padding-left: 25px;
+  color: chocolate;
+}
+#K2Mountain {
+  border-radius: 4px;
+  height: 200px;
+  margin-left: 95px;
+}
+
+#changBackground {
+  border: 10px solid cyan;
+  height: 200px;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 35vw;
+  margin-top: 30px;
+  background-color: pink;
+}
+#userForm {
+  border: 5px solid paleturquoise;
+  width: 400px;
+  margin-left: 35vw;
+}
+#parentDiv {
+  border: 4px solid cyan;
+  border-radius: 10px;
+  width: 400px;
+  margin-left: 35vw;
+}
+#parentDiv h1,
+#parentDiv li,
+#parentDiv p {
+  margin: 40px;
+}
