@@ -74,7 +74,8 @@ console.log("ClassNameRemove >>>>", classNameRemove);
 let isOriginalQuote = true;
 const originalQuote = document.getElementById("quote").textContent;
 console.log("OriginaQuote >>>", originalQuote);
-document.getElementById("button").addEventListener("click", function () {
+document.getElementById("button").addEventListener("click", function (e) {
+  e.preventDefault();
   if (isOriginalQuote) {
     document.getElementById("quote").textContent =
       "Strength is Life, Weakness is Death. Expansion is Life, Contraction is Death. Love is Life, Hatred is Death. - Swami Vivekanand";
@@ -86,7 +87,8 @@ document.getElementById("button").addEventListener("click", function () {
 // Task 10: Add a mouseover event listner to an element that changes its border color
 const mouseoverEvent = document
   .getElementById("borderElmt")
-  .addEventListener("mouseover", function () {
+  .addEventListener("mouseover", function (e) {
+    e.preventDefault();
     document.getElementById("borderElmt").style.border = "10px solid green";
   });
 
