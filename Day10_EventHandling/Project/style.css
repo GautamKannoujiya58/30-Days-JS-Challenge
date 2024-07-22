@@ -1,0 +1,18 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 100px;
+}
+section div {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: rgb(9, 216, 9);
+  transition: 0.25s;
+}
+.active {
+  background-color: rgb(13, 138, 13);
+  transform: scale(1.25);
+}
