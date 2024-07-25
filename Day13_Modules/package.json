@@ -1,0 +1,25 @@
+{
+  "name": "day13_modules",
+  "version": "1.0.0",
+  "description": "\"Modules\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gautamkannoujiya58/30-Days-JS-Challenge"
+  },
+  "author": "Gautam Kumar",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
