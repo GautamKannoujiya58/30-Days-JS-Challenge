@@ -1,4 +1,4 @@
-/* // Day 17: Data Structure
+// Day 17: Data Structure
 // Tasks/Activities:
 
 // Activity 1: Linked List
@@ -159,7 +159,7 @@ for (let i = 1; i <= no_ofPrintJobs; i++) {
 }
 if (printerQueue.items.length === 0) {
   console.log("No more print doc in the queue of the printer");
-} */
+}
 
 // ---------------------------------------------------------------------------------------------
 
