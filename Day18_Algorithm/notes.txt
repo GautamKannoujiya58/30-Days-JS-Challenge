@@ -1,0 +1,2 @@
+Sliding window algorithm => A sliding window algorithm is a window (or section) that is formed over parts of your data. 
+ 
