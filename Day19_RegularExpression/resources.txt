@@ -1,0 +1,41 @@
+Reading Resources
+
+MDN Web Docs: Regular Expressions
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+
+RegexOne
+https://regexone.com/
+
+Regular Expressions Info
+https://www.regular-expressions.info/
+
+JavaScript.info
+https://javascript.info/regular-expressions
+
+〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰
+
+Video Resources
+The Net Ninja - Regular Expressions Tutorial
+https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD
+
+Traversy Media - Regular Expressions Crash Course
+https://www.youtube.com/watch?v=rhzKDrUiJVk
+
+Academind - Regular Expressions Tutorial
+https://www.youtube.com/watch?v=7DG3kCDx53c
+
+FreeCodeCamp - Regular Expressions Course
+https://www.youtube.com/watch?v=909NfO1St0A
+
+Fireship.io - Learn Regular Expressions in 20 Minutes
+https://www.youtube.com/watch?v=r6I-Ahc5sRo
+
+〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰⭐〰
+
+Interactive Practice
+Regex101
+https://regex101.com/
+
+RegExr
+https://regexr.com/
