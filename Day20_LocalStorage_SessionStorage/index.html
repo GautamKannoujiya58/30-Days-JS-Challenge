@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LocalStorage & SessionStorage</title>
+  </head>
+  <body>
+    <!-- Task 3: Create a simple form that saves user input (e.g. name and email) to 'localStorage' when submitted.
+     Retrieve and display the saved data on page load. -->
+    <h1>LocalStorage Demonstration</h1>
+    <form action="#" method="POST" id="userForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">email:</label>
+      <input type="email" id="email" name="email" required />
+      <input type="submit" value="submit" />
+    </form>
+    <div id="savedUser"></div>
+    <br />
+
+    <!--Task 7: Create a simple form that saves user input (e.g. name and email) to 'sessionStorage' when submitted. Retrieve and 
+     display the saved data on page load -->
+    <h1>SessionStorage Demonstration</h1>
+    <form action="#" method="POST" id="sessionUserForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <input type="submit" value="submit" />
+    </form>
+    <div id="savedSessionUser"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
